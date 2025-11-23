@@ -16,12 +16,12 @@
     "Diamoeba": { "birth": [3,5,6,7,8], "survive": [5,6,7,8] },
     "Anneal": { "birth": [4,6,7,8], "survive": [3,5,6,7,8] }
   },
-  "current_rule": "Conway",
+  "current_rule": "HighLife",
 
   "background_color": [0, 0, 0],
   "cell_color": [255, 0, 255],
   "text_color": [255, 255, 255],
-  "field_path": "field.txt",
+  "field_path": "field1.txt",
 
   "panel_width": 200,
   "panel_color": [0, 0, 0],
