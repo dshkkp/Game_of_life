@@ -102,10 +102,10 @@ class Panel:
     def place_pattern(self, field, name, gx, gy, H, W):
         '''Размещает выбранный шаблон на поле'''
         if name == "random":
-            # Создаём случайный паттерн 3x3
+            # Создаём случайный паттерн 5 на 5
             pattern = []
-            for dy in range(3):
-                for dx in range(3):
+            for dy in range(5):
+                for dx in range(5):
                     if random.random() < 0.5:  
                         pattern.append([dx, dy])
         else:
